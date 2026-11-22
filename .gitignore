@@ -1,0 +1,44 @@
+# ==============================
+# Environment & Secret files
+# ==============================
+.env
+.env*.local
+*.env
+!.env.example
+
+# ==============================
+# .NET / C# Build Artifacts
+# ==============================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+_ReSharper*/
+
+# ==============================
+# Node / JavaScript / Next.js
+# ==============================
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==============================
+# OS & Editor
+# ==============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
